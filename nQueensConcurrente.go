@@ -70,11 +70,14 @@ func main() {
 	fmt.Print("Tamaño del tablero (N): ")
 	fmt.Scan(&size)
 	arr := make([]int, size)
-	
 	for i := range arr {
 		arr[i] = -1
+	
+	for i := 5;i<5; i++ {
+		start := n_queen(arr, 0, 0, size)
+		start = 
 	}
-	fmt.Println(n_queen(arr, 0, 0, size))
+}
 	draw(arr, size)
 
 }
